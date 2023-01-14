@@ -11,6 +11,9 @@ namespace LatestCsharp
             
             var point2 = point with { X = 3.0 };
             Console.WriteLine(point2);
+
+            // Program.cs(15, 30): [CS9035] Required member 'Point.Y' must be set in the object initializer or attribute constructor.
+            // var point3 = new Point { X = 1.0 };
         }
     }
 }
